@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication"
+        xmlns:ViewModels="clr-namespace:WpfApplication.ViewModels"
+        xmlns:Converters="clr-namespace:WpfApplication.Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="550">
+    <Window.DataContext>
+        <ViewModels:PlayerListViewModel/>
+    </Window.DataContext>
+     
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="120px"/>
+        </Grid.ColumnDefinitions>
+
+        <CheckBox x:Name="chBTeam" Content="Группировка" Margin="5px" 
+                  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                  IsChecked="{Binding IsGrouped}"/>
+        
+        <DataGrid x:Name="dgPlayers" Grid.Row="1" Grid.Column="0"                  
+                  ItemsSource="{Binding PlayersCollectionView.View}"
+                  SelectedItem="{Binding SelectedPlayer}"
+                  IsReadOnly="True">
+            <DataGrid.GroupStyle>
+                <GroupStyle ContainerStyle="{StaticResource DataGridGroupItemStyle}"/>
+            </DataGrid.GroupStyle>        
+        </DataGrid>
+
+        <StackPanel x:Name="stPanel" Grid.Row="1" Grid.Column="1"
+                   Orientation="Vertical" VerticalAlignment="Top">
+            <TextBlock Text="Фамилия"  Style="{StaticResource tbStyle}"/>
+            <TextBox x:Name="tbSurname" Text="{Binding SelectedPlayer.Surname}" Style="{StaticResource txtStyle}"/>
+
+            <TextBlock Text="Имя"  Style="{StaticResource tbStyle}"/>
+            <TextBox x:Name="tbName" Text="{Binding SelectedPlayer.Name}" Style="{StaticResource txtStyle}"/>
+
+            <TextBlock Text="Возраст"  Style="{StaticResource tbStyle}"/>
+            <TextBox x:Name="tbAge" Text="{Binding SelectedPlayer.Birthday, Converter= {StaticResource BirthdayToAgeConverter}}" 
+                      Style="{StaticResource txtStyle}" IsReadOnly="True"/>
+
+            <TextBlock Text="День рождения"  Style="{StaticResource tbStyle}"/>
+            <TextBox x:Name="tbBirthday" Text="{Binding SelectedPlayer.Birthday}" 
+                      Style="{StaticResource txtStyle}"/>
+
+            <TextBlock Text="Вес"  Style="{StaticResource tbStyle}"/>
+            <TextBox x:Name="tbWeight" Text="{Binding SelectedPlayer.Weight}" 
+                      Style="{StaticResource txtStyle}"/>
+
+            <TextBlock Text="Команда" Style="{StaticResource tbStyle}"/>
+            <ComboBox x:Name="tbTeam" ItemsSource="{Binding TeamList}"
+                      SelectedItem="{Binding SelectedPlayer}"     
+                      Text="{Binding SelectedPlayer.TeamName}"
+                      DisplayMemberPath="Name" 
+                      Style="{StaticResource cbStyle}"/>
+
+            <Button x:Name="btnEdit" Content="Добавить"
+                    Style="{StaticResource btnStyle}"
+                    Command="{Binding Path=AddCommand}"
+                    CommandParameter="{Binding SelectedPlayer}"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

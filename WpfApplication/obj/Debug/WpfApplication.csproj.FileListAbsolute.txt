@@ -1,0 +1,34 @@
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\bin\Debug\WpfApplication.exe.config
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\MainWindow.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\App.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.exe
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.pdb
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\bin\Debug\WpfApplication.exe
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\bin\Debug\WpfApplication.pdb
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\MainWindow.baml
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.g.resources
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+C:\Users\Юля\Desktop\СУБД в C#\WPF\WpfApplication\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\bin\Debug\WpfApplication.exe.config
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.exe
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.pdb
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\bin\Debug\WpfApplication.exe
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\bin\Debug\WpfApplication.pdb
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\MainWindow.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\App.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\MainWindow.baml
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.g.resources
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\App.baml
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\Views\ButtonStyles.baml
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\Views\TextStyles.baml
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+C:\Users\Юля\Desktop\СУБД в C#\Лабы\Задание 2\WpfApplication\WpfApplication\obj\Debug\Views\GridStyles.baml
